@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>servise</title>
+</head>
+<body>
+    {{>header}}
+    <div class="container">
+        <h2>{{title}}</h2>
+        <h3>{{desc}}</h3>
+        <form id="form1">
+            <input type="text" name="address" id="address" placeholder="Enter Country">
+            <button type="submit" id="btn">search for weather</button>
+        </form>
+        <div id="info">
+            <table id="infoShow">
+                <tr id="tr1">
+                    <th>Country</th>
+                    <td id="country"></td>
+                    <td id="v"></td>
+                    <th>City</th>
+                    <td id="city"></td>
+                </tr>
+                <tr id="tr2">
+                    <th>Condition</th>
+                    <td id="condition"></td>
+                        <td id="v"></td>
+                    <th>Temperature</th>
+                    <td id="temp"></td>
+                </tr>
+                <tr id="tr3">
+                    <th>Latitude</th>
+                    <td id="lat"></td>
+                    <td id="v"></td>
+                    <th>Longitude</th>
+                    <td id="long"></td>
+                </tr>
+                
+
+                
+            </table>
+            <h4 id="error">you must provide address</h4>
+
+
+        </div>
+    </div>
+    {{>footer}}
+ <script  src="js/script.js"></script>   
+</body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(226, 247, 240);
+}
+.header{
+    position: fixed;
+    left:0;
+    top:0;
+    height:60px;
+    width:100%;
+    background-color: blueviolet;
+    color:beige;
+    padding:20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+.nav a.active{
+    color:rgb(9, 90, 13);
+    font-size: 23px;
+    border-radius:20px;
+    font-weight: 800;
+
+
+}
+.container {
+    width:80%;
+    height: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(75, 49, 136);
+    color:white;
+    
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#btn , #address {
+    height: 40px;
+    font-size: large;
+    border-radius: 20px;
+    padding:5px 10px;
+    display: block;
+    margin:10px auto
+}
+#info h4{
+    margin:5px 50px ;
+    text-align: start;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#info table th , #info table td {
+    background-color: blue;
+    margin-top: 0;
+    height :30px;
+    font-size: 27px;
+    font-weight:900 ;
+    width:170px;
+    padding:5px;
+}
+table tr {
+    display:none
+}
+#info td {
+    font-size: 25px;
+    font-weight:750 ;
+    margin-right: 50px;
+}
+
+#info table {
+    margin : 10px auto 5px;
+}
+
+
+.footer {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    height:60px;
+    width:100%;
+    background-color: blueviolet;
+    color:beige;
+    text-align: center;
+    padding: 20px;
+        
+}
+img{
+    width:500px;
+    margin-top:50px;
+}
+#info tr td#v{
+    width: 15px;
+    background-color: rgb(75, 49, 136);
+}
+.nav a{
+    font-size:25px ;
+    font-weight: 700;
+}
+.nav a .active{
+    font-size:30px ;
+    font-weight: 900;
+    background-color: white;
+    color: rgb(163, 156, 180);
+
+    
+}
